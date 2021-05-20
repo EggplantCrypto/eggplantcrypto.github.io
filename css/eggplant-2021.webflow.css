@@ -1289,6 +1289,7 @@ a {
 }
 
 .heading-5 {
+  padding-top: 1px;
   font-family: 'Black bubble', sans-serif;
   font-size: 44px;
   text-align: center;
@@ -1555,7 +1556,7 @@ a {
 
 .image-9 {
   margin-top: 0px;
-  padding-top: 40px;
+  padding-top: 33px;
 }
 
 .image-10 {
@@ -1682,6 +1683,13 @@ a {
 .link-3 {
   color: #6b6b6b;
   text-decoration: none;
+}
+
+.text-block-4 {
+  font-family: 'Black bubble', sans-serif;
+  color: #6b6b6b;
+  font-size: 30px;
+  line-height: 40px;
 }
 
 @media screen and (max-width: 991px) {
