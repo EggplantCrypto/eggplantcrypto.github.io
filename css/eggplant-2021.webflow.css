@@ -1681,7 +1681,9 @@ a {
 }
 
 .link-3 {
+  display: block;
   color: #6b6b6b;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -1690,6 +1692,11 @@ a {
   color: #6b6b6b;
   font-size: 30px;
   line-height: 40px;
+}
+
+.text-block-5 {
+  margin-top: 10px;
+  color: #6b6b6b;
 }
 
 @media screen and (max-width: 991px) {
