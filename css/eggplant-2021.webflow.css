@@ -1696,7 +1696,8 @@ a {
 
 .text-block-5 {
   margin-top: 10px;
-  color: #6b6b6b;
+  color: #fff;
+  font-size: 17px;
 }
 
 @media screen and (max-width: 991px) {
