@@ -1582,8 +1582,8 @@ a {
 .heading-18 {
   opacity: 1;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
   text-align: center;
 }
@@ -1698,6 +1698,24 @@ a {
   margin-top: 10px;
   color: #fff;
   font-size: 17px;
+}
+
+.button-2 {
+  margin-top: 30px;
+  margin-left: 12px;
+  border-radius: 8px;
+  background-color: #b85ce6;
+  -webkit-transition: background-color 500ms ease, color 200ms ease;
+  transition: background-color 500ms ease, color 200ms ease;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-2:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 @media screen and (max-width: 991px) {
@@ -2241,6 +2259,48 @@ a {
   }
 
   #w-node-d7765239-53cb-c1ac-656d-fae3026841be-0dc14e90 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_77e8e7a9-4d08-b2fe-1706-95c69297a10d-0dc14e90 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-d1acc369-546a-899f-9d08-9d0e7b3b4772-0dc14e90 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-a28c8e10-3013-f925-9701-cb2f25f23e34-0dc14e90 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_128910cb-61c6-e13e-41ff-61796527d9d7-0dc14e90 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_5f239027-ff5a-57ab-8406-69e0a75b680e-0dc14e90 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_8954d7d3-3f0b-7b72-2a3e-273f06728c32-0dc14e90 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
