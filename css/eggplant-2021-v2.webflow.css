@@ -339,18 +339,18 @@ a {
   margin-top: 10px;
   padding-top: 0px;
   padding-bottom: 0px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   border-bottom: 1px none hsla(0, 0%, 100%, 0.1);
   text-align: left;
 }
@@ -1060,6 +1060,7 @@ a {
   margin-left: 15px;
   color: #6b6b6b;
   font-size: 12px;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -1522,6 +1523,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: auto;
+  margin-bottom: 10px;
   margin-left: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1655,6 +1658,7 @@ a {
   font-family: Nexa, sans-serif;
   font-size: 12px;
   line-height: 12px;
+  font-weight: 700;
 }
 
 .div-block-14 {
@@ -1752,6 +1756,7 @@ a {
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 16px;
   line-height: 40px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -1813,6 +1818,65 @@ a {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+}
+
+.section-2 {
+  display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.text-block-7 {
+  display: block;
+  font-family: Nexa, sans-serif;
+  color: #160d1a;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link-4 {
+  color: #160d1a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-4:hover {
+  color: #9559b3;
+}
+
+.link-5 {
+  color: #160d1a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-5:hover {
+  color: #9559b3;
+}
+
+.link-6 {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-6:hover {
+  color: #9559b3;
+}
+
+.link-8 {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-8:hover {
+  color: #9559b3;
+}
+
+.link-9 {
+  color: #160d1a;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1880,6 +1944,7 @@ a {
   }
 
   .hero-content {
+    margin-top: 30px;
     margin-bottom: 40px;
     padding-right: 5vw;
     padding-left: 5vw;
@@ -2246,6 +2311,10 @@ a {
     margin-bottom: 30px;
   }
 
+  .hero-subhead {
+    margin-top: 50px;
+  }
+
   .feature-icon {
     margin-bottom: 20px;
   }
@@ -2337,6 +2406,10 @@ a {
     -webkit-order: 0;
     -ms-flex-order: 0;
     order: 0;
+  }
+
+  .text-block-7 {
+    width: 100%;
   }
 }
 
